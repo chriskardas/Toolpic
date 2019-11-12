@@ -43,17 +43,18 @@
       "type": "Selection",
       "description": "Filling Mode",
       "key": "fillingMode",
-      "default": 1,
+      "default": 0,
       "properties": {
         "items": [
           {
             "type": "value",
-            "value": 1,
-            "render": "data/resources/logo-2.svg"
+            "value": 0,
+            "render": "/data/resources/logo-2.svg"
           },
             {
-            "value": 2,
-            "render": "data/resources/logo.svg"
+            "type": "value",
+            "value": 1,
+            "render": "/data/resources/logo.svg"
           }
         ]
       }
